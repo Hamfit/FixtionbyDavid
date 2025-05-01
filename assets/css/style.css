@@ -541,14 +541,20 @@ p {
 /* Logo swap logic */
 .logo-sticky {
   display: none;
+  border-radius: 5px;
 }
 
 .sticky .logo-sticky {
   display: inline-block;
+ 
 }
 
 .sticky .logo-normal {
   display: none;
+}
+
+.logo-normal {
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -664,6 +670,7 @@ p {
   position: relative;
   z-index: 5;
   background-position: bottom center;
+  padding-bottom: 30px;
 }
 
 #particles-1 {
@@ -736,6 +743,7 @@ p {
 
 .header-hero-image img {
   max-width: 650px;
+  border-radius: 50px;
 }
 
 @media (max-width: 767px) {
@@ -1334,6 +1342,7 @@ p {
   background-position: top center;
   position: relative;
   z-index: 5;
+  margin-top: 30px;
 }
 
 .footer-area::before {
@@ -1343,7 +1352,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/footer/footer-bg.svg);
+  background-image: linear-gradient(rgba(15, 46, 71, 0.9), rgba(15, 46, 71, 0.9)), url(../images/footer/footer-bg.svg);
   background-position: top center;
   z-index: -1;
   background-size: cover;
@@ -1369,7 +1378,8 @@ p {
 }
 
 .footer-about .logo img {
-  width: 160px;
+  width: 100px;
+  border-radius: 5px;
 }
 
 .footer-about .text {
