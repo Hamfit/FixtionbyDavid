@@ -686,6 +686,10 @@ p {
   padding-top: 180px;
 }
 
+.header-title {
+  margin-top: 10px;
+}
+
 @media (max-width: 767px) {
   .header-hero-content {
     padding-top: 130px;
