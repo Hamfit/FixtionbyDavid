@@ -697,20 +697,29 @@ p {
 }
 
 .header-hero-content .header-sub-title {
-  font-size: 38px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 10;
   color: #fff;
+  font-style: italic;
 }
 
 @media (max-width: 767px) {
   .header-hero-content .header-sub-title {
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: 10;
+    color: #fff;
+    font-style: italic;
+    margin-top: 7px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-hero-content .header-sub-title {
-    font-size: 30px;
+    font-size: 16px;
+    font-weight: 10;
+    color: #fff;
+    font-style: italic;
+    margin-top: 7px;
   }
 }
 
