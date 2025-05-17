@@ -496,7 +496,7 @@ p {
 }
 
 .navbar {
-  padding: 25px 0;
+  padding: 10px 0;
   border-radius: 5px;
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -683,16 +683,16 @@ p {
 }
 
 .header-hero-content {
-  padding-top: 180px;
+  padding-top: 150px;
 }
 
 .header-title {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 @media (max-width: 767px) {
   .header-hero-content {
-    padding-top: 130px;
+    padding-top: 120px;
   }
 }
 
@@ -701,6 +701,7 @@ p {
   font-weight: 10;
   color: #fff;
   font-style: italic;
+  margin-top: 3px;
 }
 
 @media (max-width: 767px) {
@@ -709,7 +710,7 @@ p {
     font-weight: 10;
     color: #fff;
     font-style: italic;
-    margin-top: 7px;
+    margin-top: 3px;
   }
 }
 
@@ -719,7 +720,7 @@ p {
     font-weight: 10;
     color: #fff;
     font-style: italic;
-    margin-top: 7px;
+    margin-top: 3px;
   }
 }
 
