@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.26772in" height="11.6929in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8268 11693"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil0 {fill:#0000CF}
+    .fil2 {fill:#999999}
+    .fil1 {fill:#CCCCCC}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M920 2633l6427 0 0 6427 -6427 0 0 -6427z"/>
+   </clipPath>
+     <mask id="id1">
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="5305.91" y1="4719.81" x2="5574.54" y2="4456.61">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+      <rect style="fill:url(#id2)" x="4942" y="4130" width="996" height="917"/>
+     </mask>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+    <path class="fil0" d="M2224 4514c772,951 923,2234 702,3663 147,-1571 -242,-2897 -1238,-3944l1340 275c-129,-354 -380,-675 -703,-990l2613 527c263,523 404,1140 415,1857 -114,-716 -302,-1262 -551,-1668l-1911 -394c839,1083 908,2293 680,3551 84,-967 2,-1872 -410,-2656l-936 -219z"/>
+    <path class="fil1" d="M6233 3573c-148,166 -298,237 -450,198l-55 141 328 354 126 -32c-16,-174 72,-315 261,-422l-209 -238z"/>
+    <path class="fil2" d="M6334 4386l-148 36 -135 -161 126 -32c-8,-195 92,-329 259,-425l144 167c-199,146 -272,236 -246,414z"/>
+    <path class="fil2" d="M5245 4726l-546 471 312 -875c148,18 355,-38 732,-305l318 361c-267,227 -375,454 -395,680l-923 211 595 -525 96 21 127 -105 -168 -152 -123 104 -25 114z"/>
+    <path class="fil1" style="mask:url(#id1)" d="M5297 4676l-351 312 144 -549 636 -305 209 211 -396 570 -539 130 351 -307c48,-1 76,7 106,-20 31,-27 39,-83 9,-128 -29,-44 -111,-48 -137,-17 -20,24 -34,65 -32,105z"/>
+    <path class="fil2" d="M4631 5253c-63,-16 -80,-130 -14,-245 -8,204 55,21 85,-22 136,-263 211,-489 87,-595 -183,-25 -495,315 -548,855 -22,225 123,316 329,253l-37 123c-223,166 -347,421 -437,699 -107,339 -118,551 -2,623 184,65 478,-313 915,-1302 -215,616 -441,1104 -678,1356 -205,182 -359,163 -430,-212 47,-366 114,-734 490,-1130 -159,-33 -257,-140 -245,-381 7,-211 80,-441 242,-696 107,-156 228,-257 379,-242 76,30 123,114 117,300 -79,350 -167,624 -253,618z"/>
+   </g>
+  </g>
+  <polygon class="fil3" points="920,2633 7347,2633 7347,9060 920,9060 "/>
+ </g>
+</svg>
