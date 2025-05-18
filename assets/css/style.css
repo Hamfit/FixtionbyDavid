@@ -505,6 +505,7 @@ p {
 
 .navbar-brand {
   padding: 0;
+  z-index: 10;
 }
 
 .navbar-toggler {
@@ -542,11 +543,13 @@ p {
 .logo-sticky {
   display: none;
   border-radius: 5px;
+
 }
 
 .sticky .logo-sticky {
   display: inline-block;
- 
+  transform: scale(2); /* Increase this value to enlarge more */
+  transform-origin: center;
 }
 
 .sticky .logo-normal {
@@ -554,7 +557,25 @@ p {
 }
 
 .logo-normal {
-  border-radius: 5px;
+  /* border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1.0); */
+  height: 110px;
+  max-width: 100%;
+  transition: all 0.3s ease-in-out;
+  /* background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(6px);  */
+  transform: scale(2); /* Increase this value to enlarge more */
+  transform-origin: center;
+}
+
+@media (max-width: 768px) {
+  .logo-normal,
+  .logo-sticky {
+    height: 70px;
+    transform: scale(3); /* Increase this value to enlarge more */
+    transform-origin: center;
+    margin: 10px 0 0 5px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -692,7 +713,7 @@ p {
 
 @media (max-width: 767px) {
   .header-hero-content {
-    padding-top: 120px;
+    padding-top: 100px;
   }
 }
 
