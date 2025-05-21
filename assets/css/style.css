@@ -549,7 +549,7 @@ p {
 
 .sticky .logo-sticky {
   display: inline-block;
-  transform: scale(3); /* Increase this value to enlarge more */
+  transform: scale(4.5); /* Increase this value to enlarge more */
   transform-origin: center;
 }
 
@@ -579,10 +579,12 @@ p {
 @media (max-width: 768px) {
   .logo-normal,
   .logo-sticky {
-    height: 100px;
-    transform: scale(3.3); /* Increase this value to enlarge more */
+    height: 80px;
+    transform: scale(5); /* Increase this value to enlarge more */
     transform-origin: center;
-    margin: 10px 0 0 10px;
+    margin-left: 29px;
+    margin-top: 20px;
+    margin-bottom: 0;
   }
   .navbar-collapse {
     position: absolute;
