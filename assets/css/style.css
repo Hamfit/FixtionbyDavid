@@ -1070,6 +1070,35 @@ p {
   background-position: right center;
 }
 
+@media (min-width: 992px) {
+  .about-area .row {
+    display: flex;
+    align-items: stretch; /* Make both sides equal height */
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    max-width: none; /* Allow full column width */
+  }
+
+  .about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .about-image img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+  }
+}
+
+
 /*===========================
 	TEAM css 
 ===========================*/
@@ -1144,6 +1173,167 @@ p {
 
 .about-content .main-btn:hover {
   background-position: right center;
+}
+
+@media (min-width: 992px) {
+  #team .team-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+     margin-top: 10px;
+  }
+
+  #team .team-content .team-image {
+    flex-shrink: 0;
+  }
+
+  #team .team-content .section-title {
+    margin-top: 20px;
+  }
+
+  #team .team-content .text {
+    margin-top: 15px;
+    text-align: left;
+    overflow: auto;
+    max-height: 300px; /* or adjust as needed */
+  }
+
+  #team .col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .team-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* ensure consistent spacing below image */
+}
+
+.team-img img {
+  width: 100%; /* full width of the container */
+  max-width: 180px; /* or any fixed size you want */
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%; /* optional: keep circular shape */
+}
+
+}
+
+/*===========================
+	Book css 
+===========================*/
+
+.book-area {
+  position: relative;
+  z-index: 5;
+}
+
+.book-shape-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35%;
+  height: 100%;
+  z-index: -1;
+}
+
+.book-shape-1 img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .book-shape-1 {
+    display: none;
+  }
+}
+
+.book-shape-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  z-index: -1;
+}
+
+.book-shape-2 img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .book-shape-2 {
+    display: none;
+  }
+}
+
+.book-content {
+  max-width: 480px;
+}
+
+.book-content .text {
+  margin-top: 15px;
+}
+
+.book-content .main-btn {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fe8464),
+    color-stop(50%, #fe6e9a),
+    to(#fe8464)
+  );
+  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background-size: 200%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 35px;
+  margin-top: 40px;
+}
+
+.book-content .main-btn:hover {
+  background-position: right center;
+}
+
+@media (min-width: 992px) {
+  #book .book-area .row {
+    align-items: flex-start; /* Align text to the top of the image */
+  }
+
+  #book .book-content {
+    max-height: 100%;
+    overflow-y: auto;
+    padding-right: 20px;
+  }
+
+  #book .book-content .text {
+    max-width: 600px;
+    line-height: 1.7;
+  }
+
+  #book .book-image img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  /* Optional: Scroll if text gets too long */
+  /* #book .book-content.text-center {
+    text-align: left;
+  }
+
+  #book .col-lg-4.col-md-6.col-sm-12 {
+    flex: 1;
+    max-width: 100%;
+  } */
 }
 
 /*===========================
